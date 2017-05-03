@@ -195,8 +195,7 @@ h6 {
 #newsletter .sign_up_form {
   margin-top: 3em;
 }
-#newsletter .sign_up_form input [type="text"],
-#newsletter .sign_up_form input [type="email"] {
+#newsletter .sign_up_form input {
   width: 48%;
   margin: 0 .5%;
   height: 3.25em;
