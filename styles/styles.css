@@ -128,6 +128,14 @@ h6 {
   margin: 0 .5em;
 }
 /* ------------------- ROW STYLES ------------------- */
+#top_movies,
+#top_shows {
+  padding: 5em 0;
+}
+#top_movies header,
+#top_shows header {
+  padding: 0 0 1.5em 0;
+}
 #top_movies header h2,
 #top_shows header h2,
 #top_movies header .view_more,
@@ -143,6 +151,9 @@ h6 {
   float: right;
   font-size: .8em;
   margin: .75em 3.5% 0;
+}
+#top_movies {
+  border-bottom: 1px solid #d4d4d4;
 }
 .row {
   width: 100%;
