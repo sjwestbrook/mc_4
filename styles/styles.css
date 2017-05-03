@@ -178,3 +178,9 @@ h6 {
   color: #8b8b9f;
   margin: 0.5em 0;
 }
+/* ------------------- NEWSLETTER STYLES ------------------- */
+#newsletter {
+  padding: 5em 0;
+  text-align: center;
+  background: #2a2a2e;
+}
