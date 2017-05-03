@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
     .title {
       font-size: 1.25em;
       margin: 1em 0 0 0;
-      color: $main;
+      color: @main;
     }
     .post_info {
       font-size: .75em;
@@ -272,13 +272,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ------------------- RESPONSIVE STYLES ------------------- */
 
-/* Desktop, Tablet, Mobile */
-
 @media only screen and (max-width: 768px) {
+  
+  /*   Nav Responsive Styles */
+  
   #main_nav {
     display: none;
-  }
-  
+  }  
   #main_nav.active {
     display: block;
     width: 100%;
@@ -290,8 +290,7 @@ h1, h2, h3, h4, h5, h6 {
         border-bottom: none; 
       }
     }
-  }
-  
+  }  
   .menu {
     display: block;
     float: right;
@@ -301,6 +300,75 @@ h1, h2, h3, h4, h5, h6 {
       padding-top: .6em;
     }
   }
-}
+  
+  
+/*   Banner Responsive Styles */
+  
+  #banner {   
+    padding: 3.5em 0;
+    #poster {
+      width: 250px;
+      .play_button {
+        width: 60px;
+        margin: -30px 0 0 -30px;
+      }
+    }
+    #content {
+      margin-left: 50px;
+      .title {
+        font-size: 1.5em;
+      }
+      .ratings {
+        i {
+          font-size: 1em;
+        }
+      }
+      .description {
+        font-size: .9em;
+      }
+      .info {
+        font-size: .7em;
+        margin-top: 2em;
+        span {
+          margin: 0 .25em; 
+        }
+      }
+    }
+  }
+
+  
+  /*   Movies and Shows Responsive Styles */
+  
+  #top_movies, #top_shows {
+    padding: 3em 0;
+    header {
+      padding: 0 0 1.25em 1.25%;
+      h2 {
+        font-size: 1.5em; 
+      }
+      .view_more {
+        margin: .75em 2.25% 0;
+      }
+    }
+  }
+
+  .row {
+    .post {
+      width: 30.6%;
+      margin-right: 0 1.25% 2em 1.25%;
+      .title {
+        font-size: 1em;
+        margin: .5em 0 0 0;
+      }
+      .post_info {
+        font-size: .65em;
+      }
+    }
+  }
+  
+  
+  
+/*   END MEDIA QUERIES */
+} 
 
 
