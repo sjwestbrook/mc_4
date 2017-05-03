@@ -2,7 +2,7 @@
 @main: #252529;
 @secondary: #8b8b9f;
 @highlight: #73e298;
-
+@white: #ffffff;
 
 /* ------------------- GLOBAL STYLES ------------------- */
 
@@ -93,7 +93,43 @@ h1, h2, h3, h4, h5, h6 {
       left: 50%;
       top: 50%;
       margin: -40px 0 0 -40px;
-      color: white;
+      color: @white;
+    }
+  }
+  #content {
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+    .title {
+      display: inline;
+      font-size: 1.75em;
+      color: @white;
+    }
+    .ratings {
+      display: inline;
+      margin-left: 1em;
+      i {
+        color: @highlight; 
+        font-size: 1.35em;
+        margin: 0 .15em;
+      }
+      .inactive {
+        color: #48494d;
+      }
+    }
+    .description {
+      color: #bbbebf; 
+      font-size: 1em;
+      line-height: 2;
+    }
+    .info {
+      color: @white;
+      font-size: .8em;
+      font-weight: 700;
+      margin-top: 3em;
+      span {
+        margin: 0 .5em; 
+      }
     }
   }
 }
