@@ -54,6 +54,7 @@ h6 {
   margin-left: 1em;
 }
 #banner {
+  background-color: #252529;
   background: url(images/deadpool_lg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
