@@ -54,7 +54,7 @@ h6 {
   margin-left: 1em;
 }
 #banner {
-  background: url(./images/deadpool_lg.jpg);
+  background: url(images/deadpool_lg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -87,5 +87,41 @@ h6 {
   left: 50%;
   top: 50%;
   margin: -40px 0 0 -40px;
-  color: white;
+  color: #ffffff;
+}
+#banner #content {
+  float: left;
+  width: 500px;
+  margin-left: 100px;
+}
+#banner #content .title {
+  display: inline;
+  font-size: 1.75em;
+  color: #ffffff;
+}
+#banner #content .ratings {
+  display: inline;
+  margin-left: 1em;
+}
+#banner #content .ratings i {
+  color: #73e298;
+  font-size: 1.35em;
+  margin: 0 .15em;
+}
+#banner #content .ratings .inactive {
+  color: #48494d;
+}
+#banner #content .description {
+  color: #bbbebf;
+  font-size: 1em;
+  line-height: 2;
+}
+#banner #content .info {
+  color: #ffffff;
+  font-size: .8em;
+  font-weight: 700;
+  margin-top: 3em;
+}
+#banner #content .info span {
+  margin: 0 .5em;
 }
