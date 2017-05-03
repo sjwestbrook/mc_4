@@ -253,8 +253,8 @@ h6 {
   color: #73e298;
 }
 /* ------------------- RESPONSIVE STYLES ------------------- */
-/* Desktop, Tablet, Mobile */
 @media only screen and (max-width: 768px) {
+  /*   Nav Responsive Styles */
   #main_nav {
     display: none;
   }
@@ -279,4 +279,35 @@ h6 {
     color: #252529;
     padding-top: .6em;
   }
+  /*   Banner Responsive Styles */
+  #banner {
+    padding: 3.5em 0;
+  }
+  #banner #poster {
+    width: 250px;
+  }
+  #banner #poster .play_button {
+    width: 60px;
+    margin: -30px 0 0 -30px;
+  }
+  #banner #content {
+    margin-left: 50px;
+  }
+  #banner #content .title {
+    font-size: 1.5em;
+  }
+  #banner #content .ratings i {
+    font-size: 1em;
+  }
+  #banner #content .description {
+    font-size: .9em;
+  }
+  #banner #content .info {
+    font-size: .7em;
+    margin-top: 2em;
+  }
+  #banner #content .info span {
+    margin: 0 .25em;
+  }
+  /*   END MEDIA QUERIES */
 }
