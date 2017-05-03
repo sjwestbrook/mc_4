@@ -56,7 +56,7 @@ h6 {
 /* ------------------- BANNER STYLES ------------------- */
 #banner {
   background-color: #252529;
-  background: url(images/deadpool_lg.jpg);
+  background: url(/images/deadpool_lg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
