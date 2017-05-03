@@ -174,7 +174,7 @@ h6 {
 .row .post .title {
   font-size: 1.25em;
   margin: 1em 0 0 0;
-  color: $main;
+  color: #252529;
 }
 .row .post .post_info {
   font-size: .75em;
@@ -189,6 +189,7 @@ h6 {
 }
 #newsletter .newsletter_inner {
   width: 600px;
+  max-width: 90%;
   margin: 0 auto;
 }
 #newsletter h2 {
@@ -309,5 +310,81 @@ h6 {
   #banner #content .info span {
     margin: 0 .25em;
   }
-  /*   END MEDIA QUERIES */
+  /*   Movies and Shows Responsive Styles */
+  #top_movies,
+  #top_shows {
+    padding: 3em 0;
+  }
+  #top_movies header,
+  #top_shows header {
+    padding: 0 0 1.25em 1.25%;
+  }
+  #top_movies header h2,
+  #top_shows header h2 {
+    font-size: 1.5em;
+  }
+  #top_movies header .view_more,
+  #top_shows header .view_more {
+    margin: .75em 2.25% 0;
+  }
+  .row .post {
+    width: 30.6%;
+    margin-right: 0 1.25% 2em 1.25%;
+  }
+  .row .post .title {
+    font-size: 1em;
+    margin: .5em 0 0 0;
+  }
+  .row .post .post_info {
+    font-size: .65em;
+  }
 }
+/*   end 768px  media queries*/
+@media only screen and (max-width: 575px) {
+  /*   Banner Responsive Styles */
+  #banner #banner_content_wrapper {
+    display: block;
+  }
+  #banner #poster {
+    width: 250px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  #banner #content {
+    width: 100%;
+    margin-top: 1em auto 0 auto;
+  }
+  /*   Movies and Shows Responsive Styles */
+  #top_movies,
+  #top_shows {
+    padding: 3em 0;
+  }
+  #top_movies header,
+  #top_shows header {
+    margin-bottom: 2em;
+  }
+  .row .post {
+    width: 250px;
+    float: none;
+    margin-right: 0 auto 2em auto;
+  }
+  /*   Newsletter Responsive Styles   */
+  #newsletter {
+    padding: 3em 0;
+  }
+  #newsletter h2 {
+    font-size: 1.35em;
+  }
+  #newsletter .sign_up_form {
+    margin-top: 2em;
+  }
+  #newsletter .sign_up_form input {
+    width: 90%;
+    margin: 0 0 1em 0;
+  }
+  #newsletter .sign_up_form .button {
+    margin-top: 2em;
+  }
+}
+/*   end 575px  media queries*/
