@@ -53,10 +53,13 @@ h6 {
   text-decoration: none;
   margin-left: 1em;
 }
+.menu {
+  display: none;
+}
 /* ------------------- BANNER STYLES ------------------- */
 #banner {
   background-color: #252529;
-  background: url("/images/deadpool_lg.jpg");
+  background: url("images/deadpool_lg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -248,4 +251,32 @@ h6 {
 }
 #main_footer .links a:hover {
   color: #73e298;
+}
+/* ------------------- RESPONSIVE STYLES ------------------- */
+/* Desktop, Tablet, Mobile */
+@media only screen and (max-width: 768px) {
+  #main_nav {
+    display: none;
+  }
+  #main_nav.active {
+    display: block;
+    width: 100%;
+  }
+  #main_nav.active a {
+    display: block;
+    padding: 1em 0;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  #main_nav.active a:last-child {
+    border-bottom: none;
+  }
+  .menu {
+    display: block;
+    float: right;
+  }
+  .menu i {
+    font-size: 1.5em;
+    color: #252529;
+    padding-top: .6em;
+  }
 }
