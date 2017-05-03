@@ -57,4 +57,15 @@ h6 {
   background: url(images/deadpool_lg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  padding: 6.5em 0;
 }
+#banner #banner_content_wrapper {
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
